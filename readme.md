@@ -16,10 +16,10 @@ go get github.com/ferhatelmas/go-image
 ```go
 import "github.com/ferhatelmas/go-image"
 
-archive.Is("src/unicorn.png")
+image.Is("src/unicorn.png")
 //=> true
 
-archive.Is("src/unicorn.go")
+image.Is("src/unicorn.go")
 //=> false
 ```
 
